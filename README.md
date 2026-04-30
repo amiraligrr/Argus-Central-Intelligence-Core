@@ -22,7 +22,7 @@ This separation is the core of version 3.
 ## 📦 Current Status
 
 **Argus is currently under active development.**  
-I am building it *at the same time* as [ASR v3](https://github.com/amiraligrr/ASR-v3) – the hardware execution layer.
+I am building it *at the same time* as [ASR v3](https://github.com/amiraligrr/ASR-Amirali-Smart-Room-v3) – the hardware execution layer.
 
 ✅ Argus can generate `{say:'...'}` to speak  
 ✅ Argus can generate `{ans:...}` to control hardware  
@@ -80,11 +80,11 @@ Argus can also decide to **not respond** at all – for example, if the command 
 
 ## 🔗 Related Repositories
 
-- [ASR v3](https://github.com/amiraligrr/ASR-v3) – Hardware execution layer (lights, trash can, turrets) – **being built simultaneously**  
+- [ASR v3](https://github.com/amiraligrr/ASR-Amirali-Smart-Room-v3) – Hardware execution layer (lights, trash can, turrets) – **being built simultaneously**  
 - [ZP-lang-Framework](https://github.com/amiraligrr/ZP-lang-Framework) – Code in your mother tongue  
 - [Smart Trash Can](https://github.com/amiraligrr/smart-trash-can) – Servo‑controlled bin  
-- [Manual-7Segment](https://github.com/amiraligrr/Manual-7Segment) – No‑library 7‑segment driver  
-
+- [Manual-7Segment](https://github.com/amiraligrr/SevenSegment-Manual-Driver) – No‑library 7‑segment driver  
+- [amiraligrr website](https://amiraligrr.ir) – See my website
 ---
 
 ## 🚀 Roadmap (Argus + ASR v3)
