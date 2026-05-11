@@ -20,7 +20,7 @@ This separation is the core of version 3.
 ---
 
 ## 📦 Current Status
-
+** for first test I will use API key **
 **Argus is currently under active development.**  
 I am building it *at the same time* as [ASR v3](https://github.com/amiraligrr/ASR-Amirali-Smart-Room-v3) – the hardware execution layer.
 
