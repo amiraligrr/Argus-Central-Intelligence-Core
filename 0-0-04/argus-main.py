@@ -14,7 +14,7 @@ from openai import OpenAI
 
 # ================= تنظیمات GapGPT =================
 client = OpenAI(
-    api_key="api key",
+    api_key= 'api key',
     base_url="https://api.gapgpt.app/v1"
 )
 
@@ -147,8 +147,8 @@ def execute_system_command(command):
 def open_website(site_key):
     sites = {
         "digikala": "https://www.digikala.com",
-        "sroosh": "https://splus.ir",
-        "rubika": "https://rubika.ir",
+        "sroosh": "https://web.splus.ir",
+        "rubika": "https://web.rubika.ir",
         "deepseek": "https://www.deepseek.com",
         "github": "https://github.com"
     }
@@ -163,7 +163,7 @@ def open_website(site_key):
             if result.returncode == 0:
                 full_cmd = f'{env_cmd} && brave-browser "{url}"'
             else:
-                full_cmd = f'{env_cmd} && firefox "{url}"'
+                full_cmd = f'{env_cmd} && brave "{url}"'
             
             run_terminal_command(full_cmd)
             return True
