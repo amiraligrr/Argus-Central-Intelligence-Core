@@ -14,7 +14,7 @@ from openai import OpenAI
 
 # ================= تنظیمات GapGPT =================
 client = OpenAI(
-    api_key="sk-fwhGjAXSGSAKfcJSdH6tObBBD9kurrZqK2T52HHkmTJIP0fm",
+    api_key="api key",
     base_url="https://api.gapgpt.app/v1"
 )
 
